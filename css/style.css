@@ -1,3 +1,112 @@
-body{
-    font-family: 'Lato', sans-serif;
+/* MULTIPAGE */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* from tea photo */
+  /* --medium-gray: rgb(172, 169, 174); */
+  /* --lavender: rgb(189, 166, 190); */
+  /* --light-gray: rgb(163, 166, 185); */
+  /* --light-gray3: rgb(198, 195, 208); use for background? */
+  /* --pale-gray: rgb(216, 214, 215); use for background? */
+  /* --pale-gray2: rgb(189, 189, 201); use for background? */
+  /* --dark-purple: rgb(69, 47, 70); use for button or font awesome icons */
+  /* --medium-purple: rgb(88, 57, 86); use for button? */
+
+  /* --purple-gray: rgb(170, 165, 183);  */
+
+  /* from shecodes palette */
+  /* #deecfc
+  #b9ceeb
+  #87a8d0
+  #c3b4d2 
+  */
+
+  /* #f4eeff
+  #dcd6f7
+  #a6b1e1
+  #424874 */
+
+  /* figma sample website */
+  /* #F9F7FE */
+}
+/* 
+a:visited {
+  color: rgb(113, 78, 118);
+} */
+
+/* NAVIGATION BAR */
+
+.navbar-background {
+  background-color: rgb(198, 195, 208, 0.3);
+}
+
+/* HOMEPAGE */
+
+
+.homepage-body {
+  /* background-color: rgb(249, 247, 254); */
+  /* background-color: rgb(189, 189, 201); */
+  /* background-color: rgb(216, 214, 215); */
+  font-family: "Lato", sans-serif;
+  background-image: url("/images/sixteen-miles-out-SvbDNnbipj0-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+/* Introduction Section */
+
+.introduction-section {
+  display: block;
+  background-color: rgb(198, 195, 208, 0.3);
+  border-radius: 10px;
+  margin: 100px 0 auto;
+  max-width: 600px;
+  padding: 10px;
+}
+
+/* footer section */
+.email {
+  color: black;
+  text-decoration: none;
+}
+
+.email:hover {
+  color: rgb(113, 78, 118);
+}
+
+.footer-container {
+  background-color: rgb(198, 195, 208);
+}
+
+.greeting {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+}
+
+.job-title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.name {
+  font-size: 75px;
+  font-weight: 700px;
+  line-height: 128px;
+}
+
+/* ABOUT PAGE */
+
+.about-tea-image {
+  height: auto;
+  max-width: 300px;
+  border-radius: 8px;
 }
