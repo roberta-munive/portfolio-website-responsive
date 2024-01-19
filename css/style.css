@@ -1,6 +1,5 @@
 /* MULTIPAGE */
 
-
 :root {
   /* from tea photo */
   /* --medium-gray: rgb(172, 169, 174); */
@@ -38,8 +37,10 @@ html {
   height: 100%;
 }
 
-body{
-
+body {
+  /* background-color: rgb(249, 247, 254); */
+  /* background-color: rgb(189, 189, 201); */
+  /* background-color: rgb(216, 214, 215); */
   font-family: "Lato", sans-serif;
 }
 
@@ -52,9 +53,6 @@ body{
 /* HOMEPAGE */
 
 .homepage-body {
-  /* background-color: rgb(249, 247, 254); */
-  /* background-color: rgb(189, 189, 201); */
-  /* background-color: rgb(216, 214, 215); */
   background-image: url("/images/sixteen-miles-out-SvbDNnbipj0-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
