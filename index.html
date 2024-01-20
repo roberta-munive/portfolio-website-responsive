@@ -25,67 +25,81 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet" />
     <!-- custom CSS -->
     <link rel="stylesheet" href="/css/style.css" />
     <title>Roberta Portfolio | Home</title>
   </head>
-  <body class="homepage-body">
-    <!-- Navigation Bar Section -->
-    <nav class="navbar fixed-top navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand" href="/" title="Home">RM</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse d-flex justify-content-end"
-          id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a
-                class="nav-link active me-4"
-                aria-current="page"
-                href="/"
-                title="Home"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link me-4" href="/about.html" title="About"
-                >About</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link me-4" href="/work.html" title="Work">Work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/connect.html" title="Connect"
-                >Connect</a
-              >
-            </li>
-          </ul>
+  <body>
+    <div class="container">
+      <!-- Navigation Bar Section -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-background">
+        <div class="container">
+          <a class="navbar-brand logo-name" href="/" title="Home">Roberta</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse d-flex justify-content-end"
+            id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active me-4"
+                  aria-current="page"
+                  href="/"
+                  title="Home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-4" href="/about.html" title="About"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-4" href="/work.html" title="Work">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/connect.html" title="Connect"
+                  >Connect</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
 
-    <!-- Introduction Section -->
-    <div class="container introduction-container d-flex justify-content-end">
-      <div class="introduction-section text-center card shadow">
-        <div class="card-body">
-          <!-- <h2 class="greeting">Hello, I am</h2> -->
-          <h1 class="name">Roberta Munive</h1>
-          <h3 class="job-title">Front-End Developer</h3>
-        </div>
+      <!-- Hero Section -->
+      <div class="container hero-container text-center">
+        <!-- <h2 class="greeting">Hello, I am</h2> -->
+        <h1 class="name">Roberta Munive</h1>
+        <h3 class="job-title">Front-End Developer</h3>
       </div>
+
+      <!-- Footer Section -->
+
+      <footer class="container-fluid footer-container p-4">
+        <div class="container">
+          <p>
+            Email |
+            <a href="mailto:ramunive.sdet@gmail.com" class="email"
+              >ramunive.sdet@gmail.com</a
+            >
+          </p>
+          <i class="fa-regular fa-envelope"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

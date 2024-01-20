@@ -3,15 +3,15 @@
 :root {
   /* from tea photo */
   /* --medium-gray: rgb(172, 169, 174); */
-  /* --lavender: rgb(189, 166, 190); */
+  /* --lavender: rgb(189, 166, 190); SOCIAL MEDIA CIRCLES (AND HEADING TEXT COLOR?)*/
   /* --light-gray: rgb(163, 166, 185); */
   /* --light-gray3: rgb(198, 195, 208); use for background? */
   /* --pale-gray: rgb(216, 214, 215); use for background? */
-  /* --pale-gray2: rgb(189, 189, 201); use for background? */
+  /* --pale-gray2: rgb(189, 189, 201); use for background? OR FOR FOOTER AND NAV BAR*/
   /* --dark-purple: rgb(69, 47, 70); use for button or font awesome icons */
   /* --medium-purple: rgb(88, 57, 86); use for button? */
 
-  /* --purple-gray: rgb(170, 165, 183);  */
+  /* --purple-gray: rgb(170, 165, 183); USER FOR FOOTER AND NAV BAR? */
 
   /* from shecodes palette */
   /* #deecfc
@@ -26,7 +26,11 @@
   #424874 */
 
   /* figma sample website */
-  /* #F9F7FE */
+  /* rgb(249, 247, 254) */
+  --branding-light: rgb(249, 247, 254);
+  --branding-medium: rgb(189, 166, 190);
+  /* --branding-dark: rgb(88, 57, 86); */
+  --branding-dark: rgb(69, 47, 70);
 }
 /* 
 a:visited {
@@ -38,37 +42,35 @@ html {
 }
 
 body {
-  /* background-color: rgb(249, 247, 254); */
-  /* background-color: rgb(189, 189, 201); */
-  /* background-color: rgb(216, 214, 215); */
+  /* background-color: rgb(198, 195, 208, 0.3); */
+  /* background-color: rgb(198, 195, 208, 0.3); */
+  background-color: var(--branding-light);
   font-family: "Lato", sans-serif;
 }
 
 /* NAVIGATION BAR */
 
+nav li a.active {
+  font-weight: bold;
+}
+
+.logo-name {
+  font-family: "Caveat", cursive;
+  font-size: xx-large;
+}
+
 .navbar-background {
   background-color: rgb(198, 195, 208, 0.3);
+  background-color: rgb(189, 166, 190, 0.1);
+  background-color: (198, 195, 208, 0.1);
+  background-color: rgb(198, 195, 208, 0.1);
 }
 
 /* HOMEPAGE */
 
-.homepage-body {
-  background-image: url("/images/sixteen-miles-out-SvbDNnbipj0-unsplash.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100%;
-}
-
-/* Introduction Section */
-
-.introduction-section {
-  display: block;
-  background-color: rgb(198, 195, 208, 0.3);
-  border-radius: 10px;
-  margin: 150px 0 auto;
-  max-width: 600px;
-  padding: 10px;
+/* Hero Section */
+.hero-container{
+  margin: 275px 0;
 }
 
 /* footer section */
@@ -83,6 +85,7 @@ body {
 
 .footer-container {
   background-color: rgb(198, 195, 208);
+  background-color: rgb(189, 166, 190, 0.2);
 }
 
 .greeting {
