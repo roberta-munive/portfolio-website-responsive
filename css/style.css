@@ -29,8 +29,8 @@
   /* rgb(249, 247, 254) */
   --branding-light: rgb(249, 247, 254);
   --branding-medium: rgb(189, 166, 190);
-  /* --branding-dark: rgb(88, 57, 86); */
-  --branding-dark: rgb(69, 47, 70);
+  --branding-dark: rgb(88, 57, 86);
+  /* --branding-dark: rgb(69, 47, 70); */
   --section-header-text: rgb(172, 169, 174);
 }
 /* 
@@ -55,6 +55,8 @@ hr {
 
 /* NAVIGATION BAR */
 
+
+/* make nav link bold for active page */
 nav li a.active {
   font-weight: bold;
 }
@@ -72,10 +74,30 @@ nav li a.active {
 
 /* Hero Section */
 .hero-container {
-  margin: 275px 0;
+  margin: 175px 0 75px 0;
 }
 
 /* Recent Work Section */
+
+.recent-work-btn {
+  background-color: var(--branding-medium);
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 auto;
+  max-width: 150px;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.recent-work-btn:hover{
+  background-color: var(--branding-dark);
+  color: var(--branding-light);
+}
+
+.recent-work-btn-container {
+  margin-bottom: 30px;
+}
 
 .recent-work-header {
   margin: 30px;
@@ -92,6 +114,11 @@ i {
 .email {
   color: black;
   text-decoration: none;
+}
+
+i:hover{
+  background-color: var(--branding-dark);
+  color: var(--branding-light);
 }
 
 .email:hover {
@@ -130,9 +157,14 @@ i {
 }
 
 @media (max-width: 920px) {
+
   .name {
     font-size: 42px;
     line-height: 1.5;
+  }
+
+  .hero-container {
+    margin-top: 275px;
   }
 
   .introduction-container {
