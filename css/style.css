@@ -55,7 +55,6 @@ hr {
 
 /* NAVIGATION BAR */
 
-
 /* make nav link bold for active page */
 nav li a.active {
   font-weight: bold;
@@ -90,7 +89,7 @@ nav li a.active {
   text-align: center;
 }
 
-.recent-work-btn:hover{
+.recent-work-btn:hover {
   background-color: var(--branding-dark);
   color: var(--branding-light);
 }
@@ -104,6 +103,15 @@ nav li a.active {
   color: var(--section-header-text);
 }
 
+.recent-work-image {
+  height: 90%;
+  transition: all 200ms ease-in-out;
+}
+
+.recent-work-image:hover {
+  transform: scale(0.8);
+}
+
 /* footer section */
 
 i {
@@ -112,11 +120,11 @@ i {
   padding: 10px;
 }
 .email {
-  color: black;
+  color: var(--branding-dark);
   text-decoration: none;
 }
 
-i:hover{
+i:hover {
   background-color: var(--branding-dark);
   color: var(--branding-light);
 }
@@ -128,6 +136,10 @@ i:hover{
 .footer-container {
   background-color: rgb(198, 195, 208);
   background-color: rgb(189, 166, 190, 0.2);
+}
+
+.footer-links:visited {
+  color: var(--branding-dark);
 }
 
 .greeting {
@@ -157,7 +169,6 @@ i:hover{
 }
 
 @media (max-width: 920px) {
-
   .name {
     font-size: 42px;
     line-height: 1.5;
@@ -175,5 +186,18 @@ i:hover{
   .introduction-section {
     display: block;
     margin: 225px auto;
+  }
+
+  .recent-work-images {
+    vertical-align: middle;
+  }
+
+  .recent-work-image:hover {
+    opacity: 0.8;
+  }
+
+  .recent-work-images-container {
+    margin: 0 auto;
+    text-align: center;
   }
 }

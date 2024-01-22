@@ -43,20 +43,10 @@
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div
-          class="collapse navbar-collapse"
-          id="navbarNav">
-
-          
+        <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a
-                class="nav-link me-4 active"
-                href="/"
-                title="Home"
-                aria-current="page"
-                >Home</a
-              >
+              <a class="nav-link me-4" href="/" title="Home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link me-4" href="/about.html" title="About"
@@ -64,7 +54,13 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link me-4" href="/work.html" title="Work">Work</a>
+              <a
+                class="nav-link me-4 active"
+                href="/work.html"
+                title="Work"
+                aria-current="page"
+                >Work</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/connect.html" title="Connect"
@@ -72,7 +68,6 @@
               >
             </li>
           </ul>
-      
         </div>
       </div>
     </nav>
@@ -83,17 +78,23 @@
     </div>
     <!-- Footer Section -->
 
-    <footer class="container-fluid footer-container p-4">
-      <div class="container">
-        <p>
-          Email |
-          <a href="mailto:ramunive.sdet@gmail.com" class="email"
-            >ramunive.sdet@gmail.com</a
-          >
-        </p>
-        <i class="fa-regular fa-envelope"></i>
-        <i class="fa-brands fa-linkedin-in"></i>
-        <i class="fa-brands fa-github"></i>
+    <footer class="container-fluid footer-container p-3 rounded border">
+      <div class="container align-items-center d-flex justify-content-center">
+        <a href="mailto:ramunive.sdet@gmail.com" class="email footer-links"
+          ><i class="fa-regular fa-envelope me-5"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/robertamunive/"
+          target="_blank"
+          class="footer-links"
+          ><i class="fa-brands fa-linkedin-in me-5"></i
+        ></a>
+        <a
+          href="https://github.com/roberta-munive"
+          target="_blank"
+          class="footer-links"
+          ><i class="fa-brands fa-github"></i
+        ></a>
       </div>
     </footer>
   </body>
