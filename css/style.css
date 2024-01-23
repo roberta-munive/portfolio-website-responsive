@@ -39,6 +39,7 @@ a:visited {
   color: rgb(113, 78, 118);
 } */
 
+/* have the content fill the entire height of the screen so there is no blank space at the bottom */
 html {
   height: 100%;
 }
@@ -54,6 +55,25 @@ hr {
   opacity: 0.1;
 }
 
+.btn-branding {
+  background-color: var(--branding-medium);
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 auto;
+  max-width: 150px;
+  padding: 10px 10px;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.btn-branding:hover {
+  background-color: var(--branding-dark);
+  color: var(--branding-light);
+}
+
 /* NAVIGATION BAR */
 
 /* make nav link bold for active page */
@@ -67,39 +87,39 @@ nav li a.active {
 }
 
 .navbar-background {
-  /* background-color: rgb(198, 195, 208, 0.1); */
   background-color: var(--navbar-background-color);
 }
 
 /* HOMEPAGE */
 
 /* Hero Section */
+
+.greeting {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+}
+
 .hero-container {
   margin: 175px 0 75px 0;
 }
 
+.job-title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.name {
+  font-size: 75px;
+  font-weight: 700px;
+  line-height: 128px;
+}
+
 /* Recent Work Section */
 
-.learn-more-btn-container{
+.learn-more-btn-container {
   margin-bottom: 80px;
-}
-
-.btn-branding {
-  background-color: var(--branding-medium);
-  /* border: 1px solid var(--branding-dark); */
-  display: block;
-  font-size: 18px;
-  font-weight: 500;
-  margin: 0 auto;
-  max-width: 150px;
-  padding: 10px 10px;
-  text-align: center;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
-
-.btn-branding:hover {
-  background-color: var(--branding-dark);
-  color: var(--branding-light);
 }
 
 .recent-work-btn-container {
@@ -127,14 +147,15 @@ i {
   border-radius: 50%;
   padding: 10px;
 }
-.email {
-  color: var(--branding-dark);
-  text-decoration: none;
-}
 
 i:hover {
   background-color: var(--branding-dark);
   color: var(--branding-light);
+}
+
+.email {
+  color: var(--branding-dark);
+  text-decoration: none;
 }
 
 .email:hover {
@@ -150,24 +171,6 @@ i:hover {
   color: var(--branding-dark);
 }
 
-.greeting {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 54px;
-}
-
-.job-title {
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 36px;
-}
-
-.name {
-  font-size: 75px;
-  font-weight: 700px;
-  line-height: 128px;
-}
-
 /* ABOUT PAGE */
 
 .about-tea-image {
@@ -177,11 +180,6 @@ i:hover {
 }
 
 @media (max-width: 920px) {
-  .name {
-    font-size: 42px;
-    line-height: 1.5;
-  }
-
   .hero-container {
     margin-top: 275px;
   }
@@ -196,12 +194,9 @@ i:hover {
     margin: 225px auto;
   }
 
-  .recent-work-images {
-    vertical-align: middle;
-  }
-
-  .recent-work-image:hover {
-    opacity: 0.8;
+  .name {
+    font-size: 42px;
+    line-height: 1.5;
   }
 
   .recent-work-images-container {
