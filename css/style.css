@@ -78,7 +78,11 @@ nav li a.active {
 
 /* Recent Work Section */
 
-.recent-work-btn {
+.learn-more-btn-container{
+  margin-bottom: 80px;
+}
+
+.recent-work-btn, .learn-more-btn {
   background-color: var(--branding-medium);
   display: block;
   font-size: 18px;
@@ -89,7 +93,7 @@ nav li a.active {
   text-align: center;
 }
 
-.recent-work-btn:hover {
+.recent-work-btn:hover, .learn-more-btn:hover {
   background-color: var(--branding-dark);
   color: var(--branding-light);
 }
