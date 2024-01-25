@@ -98,12 +98,6 @@ nav li a.active {
 /* HOMEPAGE */
 
 /* Hero Section */
-/* 
-.greeting {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 54px;
-} */
 
 .hero-container {
   margin: 175px 0 75px 0;
@@ -141,7 +135,7 @@ nav li a.active {
 }
 
 .recent-work-image:hover {
-  transform: scale(0.9);
+  transform: scale(0.95);
 }
 
 /* footer section */
@@ -209,12 +203,27 @@ i:hover {
   /* margin: 175px 0 auto; */
 }
 
+/* About Page - Personal Section */
+
 .personal-card-section {
   margin: 75px 0 auto;
 }
 
-.technology-label{
+/* About Page - Technology Section */
+
+.technology-label {
   font-size: 12px;
+}
+
+/* About Page - Certification Section */
+
+.certification-image {
+  height: 80%;
+  transition: all 200ms ease-in-out;
+}
+
+.certification-image:hover {
+  transform: scale(0.95);
 }
 
 @media (max-width: 920px) {
@@ -242,7 +251,7 @@ i:hover {
     text-align: center;
   }
 
-  .technology-label{
+  .technology-label {
     font-size: 8px;
   }
 }
