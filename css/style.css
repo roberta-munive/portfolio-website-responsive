@@ -30,6 +30,7 @@
   --branding-light: rgb(249, 247, 254);
   --branding-medium: rgb(189, 166, 190);
   --branding-dark: rgb(88, 57, 86);
+  --card-background-color: rgb(198, 195, 208, 0.3);
   /* --branding-dark: rgb(69, 47, 70); */
   --navbar-background-color: rgb(244, 242, 249);
   --section-header-text: rgb(172, 169, 174);
@@ -74,6 +75,10 @@ hr {
   color: var(--branding-light);
 }
 
+.section-header {
+  color: var(--section-header-text);
+}
+
 /* NAVIGATION BAR */
 
 /* make nav link bold for active page */
@@ -93,12 +98,12 @@ nav li a.active {
 /* HOMEPAGE */
 
 /* Hero Section */
-
+/* 
 .greeting {
   font-size: 36px;
   font-weight: 700;
   line-height: 54px;
-}
+} */
 
 .hero-container {
   margin: 175px 0 75px 0;
@@ -128,7 +133,6 @@ nav li a.active {
 
 .recent-work-header {
   margin: 30px;
-  color: var(--section-header-text);
 }
 
 .recent-work-image {
@@ -173,10 +177,44 @@ i:hover {
 
 /* ABOUT PAGE */
 
+.about-header {
+  color: var(--section-header-text);
+}
+
+.about-header-section {
+  margin: 130px 0 75px 0;
+}
+
+.about-me-header {
+  font-size: 75px;
+  font-weight: 700px;
+  line-height: 128px;
+  /* margin: 30px; */
+}
+
 .about-tea-image {
-  height: auto;
+  max-height: auto;
   max-width: 300px;
   border-radius: 8px;
+}
+
+.greeting {
+  font-size: 32px;
+  font-family: "Caveat", cursive;
+}
+
+.personal-card,
+.technology-card {
+  background-color: var(--card-background-color);
+  /* margin: 175px 0 auto; */
+}
+
+.personal-card-section {
+  margin: 75px 0 auto;
+}
+
+.technology-label{
+  font-size: 12px;
 }
 
 @media (max-width: 920px) {
@@ -202,5 +240,9 @@ i:hover {
   .recent-work-images-container {
     margin: 0 auto;
     text-align: center;
+  }
+
+  .technology-label{
+    font-size: 8px;
   }
 }

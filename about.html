@@ -29,80 +29,228 @@
     <title>Roberta Portfolio | About</title>
   </head>
   <body>
-    <!-- Navigation Bar Section -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-background shadow">
-      <div class="container">
-        <a class="navbar-brand logo-name" href="/" title="Home">Roberta</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link me-4" href="/" title="Home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link me-4 active"
-                href="/about.html"
-                title="About"
-                aria-current="page"
-                >About</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link me-4" href="/work.html" title="Work">Work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/connect.html" title="Connect"
-                >Connect</a
-              >
-            </li>
-          </ul>
+    <div class="container">
+      <!-- Navigation Bar Section -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-background shadow">
+        <div class="container">
+          <a class="navbar-brand logo-name" href="/" title="Home">Roberta</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link me-4" href="/" title="Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link me-4 active"
+                  href="/about.html"
+                  title="About"
+                  aria-current="page"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-4" href="/work.html" title="Work">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/connect.html" title="Connect"
+                  >Connect</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="about-header-section">
+        <h1 class="text-center section-header about-header text-uppercase">
+          About Me
+        </h1>
+      </div>
+
+      <!-- Personal Section -->
+      <div class="d-flex justify-content-center personal-card-section mb-5">
+        <div class="card rounded shadow col-md-6 personal-card p-3 border m-3">
+          <img
+            src="/images/sixteen-miles-out-SvbDNnbipj0-unsplash.jpg"
+            class="card-img-top rounded"
+            alt="teacup and book" />
+          <div class="card-body">
+            <h5 class="card-title text-center mb-3 mt-3">
+              <span class="greeting">Welcome!</span>
+            </h5>
+            <p class="card-text text-center">
+              I'm glad you're here! I'm Roberta, a front-end web developer based
+              in Texas.
+            </p>
+            <p class="card-text text-center">
+              I have multiple degrees in Computer Science (PhD, MS, BS).
+            </p>
+            <p class="card-text text-center">
+              I enjoy mysteries, puzzles, and learning - which is why I find
+              software development so intriguing.
+            </p>
+          </div>
         </div>
       </div>
-    </nav>
 
-    <div class="container about-container">
-      <h1>ABOUT ME</h1>
+      <!-- Technologies Section -->
 
-      <img
-        src="/images/sixteen-miles-out-SvbDNnbipj0-unsplash.jpg"
-        alt="tea and book"
-        class="img-fluid about-tea-image" />
-      <i class="fa-brands fa-linkedin"></i>
-      <i class="fa-brands fa-github"></i>
-    </div>
-
-    <!-- Footer Section -->
-
-    <footer class="container-fluid footer-container p-3 rounded border">
-      <div class="container align-items-center d-flex justify-content-center">
-        <a href="mailto:ramunive.sdet@gmail.com" class="email footer-links" title="Send me an email"
-          ><i class="fa-regular fa-envelope me-5"></i
-        ></a>
-        <a
-          href="https://www.linkedin.com/in/robertamunive/"
-          target="_blank"
-          class="footer-links"
-          title="My LinkedIn Profile"
-          ><i class="fa-brands fa-linkedin-in me-5"></i
-        ></a>
-        <a
-          href="https://github.com/roberta-munive"
-          target="_blank"
-          class="footer-links"
-          title="My GitHub Profile"
-          ><i class="fa-brands fa-github"></i
-        ></a>
+      <hr />
+      <div class="about-technologies-section mb-5">
+        <h2
+          class="text-uppercase text-center technologies-header mt-5 mb-4 section-header">
+          Technical Skills
+        </h2>
+        <div class="d-flex justify-content-center text-center">
+          <div
+            class="card technology-card rounded shadow col-md-6 p-3 border m-3">
+            <div class="card-body">
+              <div class="row mb-4">
+                <div class="col-3">
+                  <img
+                    src="/images/html.png"
+                    alt="HTML logo"
+                    class="technology-icon d-block img-fluid" />
+                  <small class="technology-label d-none d-sm-block">HTML</small>
+                </div>
+                <div class="col-3">
+                  <img
+                    src="/images/css.png"
+                    alt="CSS logo"
+                    class="technology-icon d-block img-fluid" />
+                  <small class="technology-label d-none d-sm-block">CSS</small>
+                </div>
+                <div class="col-3">
+                  <img
+                    src="/images/javascript.png"
+                    alt="JavaScript logo"
+                    class="technology-icon d-block img-fluid" /><small
+                    class="technology-label d-none d-sm-block"
+                    >JavaScript</small
+                  >
+                </div>
+                <div class="col-3">
+                  <img
+                    src="/images/vscode.png"
+                    alt="VSCode logo"
+                    class="technology-icon d-block img-fluid" /><small
+                    class="technology-label d-none d-sm-block"
+                    >VSCode</small
+                  >
+                </div>
+              </div>
+              <div class="row mb-4">
+                <div class="col-3">
+                  <img
+                    src="/images/api.png"
+                    alt="API logo"
+                    class="technology-icon d-block img-fluid" />
+                  <small class="technology-label d-none d-sm-block">API</small>
+                </div>
+                <div class="col-3">
+                  <img
+                    src="/images/github.png"
+                    alt="GitHub logo"
+                    class="technology-icon d-block img-fluid" />
+                  <small class="technology-label d-none d-sm-block">GitHub</small>
+                </div>
+                <div class="col-3">
+                  <img
+                    src="/images/ai.png"
+                    alt="AI logo"
+                    class="technology-icon d-block img-fluid" /><small
+                    class="technology-label d-none d-sm-block"
+                    >AI</small
+                  >
+                </div>
+                <div class="col-3">
+                  <img
+                    src="/images/bootstrap.png"
+                    alt="Bootstrap logo"
+                    class="technology-icon d-block img-fluid" /><small
+                    class="technology-label d-none d-sm-block"
+                    >Bootstrap</small
+                  >
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-3">
+                  <img
+                    src="/images/flexbox.png"
+                    alt="Flexbox logo"
+                    class="technology-icon d-block img-fluid" />
+                  <small class="technology-label d-none d-sm-block">Flexbox</small>
+                </div>
+                <div class="col-3">
+                  <img
+                    src="/images/responsive.png"
+                    alt="Responsive logo"
+                    class="technology-icon d-block img-fluid" />
+                  <small class="technology-label d-none d-sm-block">Responsive</small>
+                </div>
+                <div class="col-3">
+                  <img
+                    src="/images/React-icon.png"
+                    alt="React logo"
+                    class="technology-icon d-block img-fluid" /><small
+                    class="technology-label d-none d-sm-block"
+                    >React.js</small
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </footer>
+
+      <!-- Certifications Section -->
+
+      <hr />
+      <div class="about-certifications-section">
+        <h2
+          class="text-uppercase text-center certifications-header mt-5 mb-2 section-header">
+          Certifications
+        </h2>
+      </div>
+
+      <hr />
+
+      <!-- Footer Section -->
+
+      <footer class="container-fluid footer-container p-3 rounded border">
+        <div class="container align-items-center d-flex justify-content-center">
+          <a
+            href="mailto:ramunive.sdet@gmail.com"
+            class="email footer-links"
+            title="Send me an email"
+            ><i class="fa-regular fa-envelope me-5"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/robertamunive/"
+            target="_blank"
+            class="footer-links"
+            title="My LinkedIn Profile"
+            ><i class="fa-brands fa-linkedin-in me-5"></i
+          ></a>
+          <a
+            href="https://github.com/roberta-munive"
+            target="_blank"
+            class="footer-links"
+            title="My GitHub Profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
