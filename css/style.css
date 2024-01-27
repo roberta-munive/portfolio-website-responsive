@@ -75,6 +75,11 @@ hr {
   color: var(--branding-light);
 }
 
+.content-card {
+  background-color: var(--card-background-color);
+  /* margin: 175px 0 auto; */
+}
+
 .section-header {
   color: var(--section-header-text);
 }
@@ -171,10 +176,6 @@ i:hover {
 
 /* ABOUT PAGE */
 
-.about-header {
-  color: var(--section-header-text);
-}
-
 .about-header-section {
   margin: 130px 0 75px 0;
 }
@@ -183,7 +184,6 @@ i:hover {
   font-size: 75px;
   font-weight: 700px;
   line-height: 128px;
-  /* margin: 30px; */
 }
 
 .about-tea-image {
@@ -195,12 +195,6 @@ i:hover {
 .greeting {
   font-size: 32px;
   font-family: "Caveat", cursive;
-}
-
-.personal-card,
-.technology-card {
-  background-color: var(--card-background-color);
-  /* margin: 175px 0 auto; */
 }
 
 /* About Page - Personal Section */
