@@ -80,6 +80,16 @@ hr {
   /* margin: 175px 0 auto; */
 }
 
+
+.content-card-title {
+  font-size: 32px;
+  font-family: "Caveat", cursive;
+}
+
+.page-header-section {
+  margin: 130px 0 75px 0;
+}
+
 .section-header {
   color: var(--section-header-text);
 }
@@ -176,9 +186,14 @@ i:hover {
 
 /* ABOUT PAGE */
 
-.about-header-section {
-  margin: 130px 0 75px 0;
+.project-image {
+  transition: all 200ms ease-in-out;
 }
+
+.project-image:hover {
+  transform: scale(0.95);
+}
+
 
 .about-me-header {
   font-size: 75px;
@@ -192,10 +207,6 @@ i:hover {
   border-radius: 8px;
 }
 
-.greeting {
-  font-size: 32px;
-  font-family: "Caveat", cursive;
-}
 
 /* About Page - Personal Section */
 
@@ -219,6 +230,10 @@ i:hover {
 .certification-image:hover {
   transform: scale(0.95);
 }
+
+/* WORK PAGE */
+
+
 
 @media (max-width: 920px) {
   .hero-container {

@@ -30,76 +30,171 @@
   </head>
   <body>
     <div class="container">
-    <!-- Navigation Bar Section -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-background shadow">
-      <div class="container">
-        <a class="navbar-brand logo-name" href="/" title="Home">Roberta</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link me-4" href="/" title="Home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link me-4" href="/about.html" title="About"
-                >About</a
-              >
-            </li>
-            <li class="nav-item">
+      <!-- Navigation Bar Section -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-background shadow">
+        <div class="container">
+          <a class="navbar-brand logo-name" href="/" title="Home">Roberta</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link me-4" href="/" title="Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-4" href="/about.html" title="About"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link me-4 active"
+                  href="/work.html"
+                  title="Work"
+                  aria-current="page"
+                  >Work</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/connect.html" title="Connect"
+                  >Connect</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="page-header-section">
+        <h1 class="text-center section-header work-header text-uppercase">
+          Coded by Roberta
+        </h1>
+      </div>
+
+      <!-- Work Section -->
+
+      <div class="container text-center overflow-hidden">
+        <div class="row row-cols-1 row-cols-md-2 gx-3 gy-5">
+          <div class="col">
+            <div class="card rounded shadow content-card p-3 border m-3 h-100">
               <a
-                class="nav-link me-4 active"
-                href="/work.html"
-                title="Work"
-                aria-current="page"
-                >Work</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/connect.html" title="Connect"
-                >Connect</a
-              >
-            </li>
-          </ul>
+                href="https://dazzling-cactus-738775.netlify.app/"
+                target="_blank"
+                title="Vanilla JS Weather App Landing Page"
+                class="mb-0">
+                <img
+                  src="/images/weather-app-vanilla-javascript.png"
+                  class="img-fluid rounded p-2 shadow project-image mb-2 card-img-top"
+                  alt="weather app"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title text-center mb-4 mt-3">
+                  <span class="content-card-title">Weather App</span>
+                </h5>
+                <p class="card-text text-center">
+                  Search for a city and obtain the current weather conditions
+                  and the five day forecast.
+                </p>
+                <p class="card-text text-center">
+                  <span class="fst-italic fw-bold">Built with: </span> HTML,
+                  CSS, JavaScript, Bootstrap, Axios, and integrated a weather API.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card rounded shadow content-card p-3 border m-3 h-100">
+              <a
+                href="https://ai-quotemaker.netlify.app/"
+                target="_blank"
+                title="AI Quote Generator Landing Page"
+                class="mb-0">
+                <img
+                  src="/images/ai-quote-generator.png"
+                  class="img-fluid rounded p-2 shadow project-image mb-2 card-img-top"
+                  alt="AI quote generator app"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title text-center mb-3 mt-3">
+                  <span class="content-card-title">AI Quote Generator</span>
+                </h5>
+                <p class="card-text text-center">
+                  Integrated an artificial intelligence API and wrote API prompts that create an AI generated quote based on a topic entered by the user.
+                </p>
+                <p class="card-text text-center">
+                  <span class="fst-italic fw-bold">Built with: </span> HTML,
+                  CSS, JavaScript, Axios, and a typewriter plugin.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col">
+            <div class="card rounded shadow content-card p-3 border m-3 h-100">
+              <a
+                href="https://timely-world-clock.netlify.app/"
+                target="_blank"
+                title="World Clock App Landing Page"
+                class="mb-0">
+                <img
+                  src="/images/world-clock.png"
+                  class="img-fluid rounded p-2 shadow project-image mb-2 card-img-top"
+                  alt="world clock app"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title text-center mb-3 mt-3">
+                  <span class="content-card-title">World Clock App</span>
+                </h5>
+                <p class="card-text text-center">
+                  Displays current time and current date for a limited number of cities.
+                </p>
+                <p class="card-text text-center">
+                  <span class="fst-italic fw-bold">Built with: </span> HTML,
+                  CSS, moment.js and moment.js timezone.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
-    <div class="container work-container">
-      <h1>WORK</h1>
-      <i class="fa-brands fa-linkedin"></i>
-      <i class="fa-brands fa-github"></i>
-    </div>
-    <!-- Footer Section -->
 
-    <footer class="container-fluid footer-container p-3 rounded border">
-      <div class="container align-items-center d-flex justify-content-center">
-        <a href="mailto:ramunive.sdet@gmail.com" class="email footer-links" title="Send me an email"
-          ><i class="fa-regular fa-envelope me-5"></i
-        ></a>
-        <a
-          href="https://www.linkedin.com/in/robertamunive/"
-          target="_blank"
-          class="footer-links"
-          title="My LinkedIn Profile"
-          ><i class="fa-brands fa-linkedin-in me-5"></i
-        ></a>
-        <a
-          href="https://github.com/roberta-munive"
-          target="_blank"
-          class="footer-links"
-          title="My GitHub Profile"
-          ><i class="fa-brands fa-github"></i
-        ></a>
-      </div>
-    </footer>
-  </div>
+      <hr class="mt-5" />
+
+      <!-- Footer Section -->
+
+      <footer class="container-fluid footer-container p-3 rounded border">
+        <div class="container align-items-center d-flex justify-content-center">
+          <a
+            href="mailto:ramunive.sdet@gmail.com"
+            class="email footer-links"
+            title="Send me an email"
+            ><i class="fa-regular fa-envelope me-5"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/robertamunive/"
+            target="_blank"
+            class="footer-links"
+            title="My LinkedIn Profile"
+            ><i class="fa-brands fa-linkedin-in me-5"></i
+          ></a>
+          <a
+            href="https://github.com/roberta-munive"
+            target="_blank"
+            class="footer-links"
+            title="My GitHub Profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
