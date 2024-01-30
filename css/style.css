@@ -114,6 +114,7 @@ nav li a.active {
 i {
   background-color: var(--branding-medium);
   border-radius: 50%;
+  color: var(--branding-dark);
   padding: 10px;
 }
 
