@@ -125,6 +125,10 @@ i:hover {
   color: var(--branding-light);
 }
 
+.coded-by-me-statement {
+  font-size: 12px;
+}
+
 .email {
   color: var(--branding-dark);
   text-decoration: none;
@@ -269,6 +273,10 @@ i:hover {
 .connect-icon:hover {
   background-color: transparent;
   color: var(--branding-medium);
+}
+
+.connect-subheading {
+  font-size: 20px;
 }
 
 @media (max-width: 920px) {
