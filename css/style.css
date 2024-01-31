@@ -68,6 +68,7 @@ hr {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition: all 150ms ease-in-out;
 }
 
 .btn-branding:hover {
@@ -116,6 +117,7 @@ i {
   border-radius: 50%;
   color: var(--branding-dark);
   padding: 10px;
+  transition: all 150ms ease-in-out;
 }
 
 i:hover {
@@ -126,6 +128,7 @@ i:hover {
 .email {
   color: var(--branding-dark);
   text-decoration: none;
+  transition: all 150ms ease-in-out;
 }
 
 .email:hover {
@@ -236,6 +239,7 @@ i:hover {
 .connect-email {
   color: black;
   text-decoration: none;
+  transition: all 150ms ease-in-out;
 }
 .connect-email:visited {
   color: black;
@@ -244,6 +248,7 @@ i:hover {
 .connect-email-icon {
   background: none;
   color: black;
+  transition: all 150ms ease-in-out;
   vertical-align: middle;
 }
 
@@ -258,6 +263,7 @@ i:hover {
   background-color: transparent;
   color: var(--branding-dark);
   font-size: 30px;
+  transition: all 150ms ease-in-out;
 }
 
 .connect-icon:hover {
@@ -266,7 +272,7 @@ i:hover {
 }
 
 @media (max-width: 920px) {
-  .connect-email{
+  .connect-email {
     font-size: 12px;
   }
   .hero-container {
