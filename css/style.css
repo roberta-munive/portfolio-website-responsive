@@ -1,44 +1,13 @@
 /* MULTIPAGE */
 
 :root {
-  /* from tea photo */
-  /* --medium-gray: rgb(172, 169, 174); */
-  /* --lavender: rgb(189, 166, 190); SOCIAL MEDIA CIRCLES (AND HEADING TEXT COLOR?)*/
-  /* --light-gray: rgb(163, 166, 185); */
-  /* --light-gray3: rgb(198, 195, 208); use for background? */
-  /* --pale-gray: rgb(216, 214, 215); use for background? */
-  /* --pale-gray2: rgb(189, 189, 201); use for background? OR FOR FOOTER AND NAV BAR*/
-  /* --dark-purple: rgb(69, 47, 70); use for button or font awesome icons */
-  /* --medium-purple: rgb(88, 57, 86); use for button? */
-
-  /* --purple-gray: rgb(170, 165, 183); USER FOR FOOTER AND NAV BAR? */
-
-  /* from shecodes palette */
-  /* #deecfc
-  #b9ceeb
-  #87a8d0
-  #c3b4d2 
-  */
-
-  /* #f4eeff
-  #dcd6f7
-  #a6b1e1
-  #424874 */
-
-  /* figma sample website */
-  /* rgb(249, 247, 254) */
   --branding-light: rgb(249, 247, 254);
   --branding-medium: rgb(189, 166, 190);
   --branding-dark: rgb(88, 57, 86);
   --card-background-color: rgb(198, 195, 208, 0.3);
-  /* --branding-dark: rgb(69, 47, 70); */
   --navbar-background-color: rgb(244, 242, 249);
   --section-header-text: rgb(172, 169, 174);
 }
-/* 
-a:visited {
-  color: rgb(113, 78, 118);
-} */
 
 /* have the content fill the entire height of the screen so there is no blank space at the bottom */
 html {
@@ -46,8 +15,6 @@ html {
 }
 
 body {
-  /* background-color: rgb(198, 195, 208, 0.3); */
-  /* background-color: rgb(198, 195, 208, 0.3); */
   background-color: var(--branding-light);
   font-family: "Lato", sans-serif;
 }
