@@ -150,6 +150,7 @@ i:hover {
 }
 
 .recent-work-image {
+  aspect-ratio: 1 / 1;
   height: 90%;
   transition: all 200ms ease-in-out;
 }
@@ -161,7 +162,9 @@ i:hover {
 /* ABOUT PAGE */
 
 .project-image {
+  aspect-ratio: 1 / 1;
   transition: all 200ms ease-in-out;
+
 }
 
 .project-image:hover {
@@ -175,6 +178,7 @@ i:hover {
 }
 
 .about-tea-image {
+  aspect-ratio: 16 / 9;
   max-height: auto;
   max-width: 300px;
   border-radius: 8px;
@@ -246,7 +250,7 @@ i:hover {
   font-size: 20px;
 }
 
-@media (max-width: 920px) {
+@media (max-width: 960px) {
   .connect-email {
     font-size: 12px;
   }
