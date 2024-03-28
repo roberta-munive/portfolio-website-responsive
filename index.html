@@ -1,193 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="A portfolio website for front-end developer, Roberta, based in the United States." />
-    <!-- install Font Awesome -->
-    <script
-      src="https://kit.fontawesome.com/2c9d00776f.js"
-      crossorigin="anonymous"></script>
-    <!-- install Bootstrap JS -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"></script>
-    <!-- install Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous" />
-    <!-- install Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-      rel="stylesheet" />
-    <!-- custom CSS -->
-    <link rel="stylesheet" href="/css/style.css" />
-    <title>Front-End Developer Portfolio - Roberta Munive | Home</title>
-  </head>
-  <body>
-    <div class="container">
-      <!-- Navigation Bar Section -->
-      <nav class="navbar fixed-top navbar-expand-lg navbar-background shadow">
-        <div class="container">
-          <a class="navbar-brand logo-name" href="/" title="Homepage"
-            >Roberta</a
-          >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a
-                  class="nav-link me-4 active"
-                  href="/"
-                  title="Homepage"
-                  aria-current="page"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link me-4"
-                  href="/about.html"
-                  title="About Roberta"
-                  >About</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link me-4"
-                  href="/work.html"
-                  title="Samples of Roberta's Work"
-                  >Work</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/connect.html" title="Contact Roberta"
-                  >Connect</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
 
-      <!-- Hero Section -->
-      <div class="container hero-container text-center">
-        <h1 class="name">Roberta Munive</h1>
-        <h3 class="job-title">Front-End Developer</h3>
-        <div class="recent-work-btn-container mt-5">
-          <a
-            href="/index.html#recent-work-section"
-            class="btn recent-work-btn btn-branding"
-            >Recent Work</a
-          >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="A portfolio website for front-end developer, Roberta, based in the United States." />
+  <!-- install Font Awesome -->
+  <script src="https://kit.fontawesome.com/2c9d00776f.js" crossorigin="anonymous"></script>
+  <!-- install Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <!-- install Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <!-- install Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <!-- custom CSS -->
+  <link rel="stylesheet" href="/css/style.css" />
+  <title>Front-End Developer Portfolio - Roberta Munive | Home</title>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Navigation Bar Section -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-background shadow">
+      <div class="container">
+        <a class="navbar-brand logo-name" href="/" title="Homepage">Roberta</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link me-4 active" href="/" title="Homepage" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-4" href="/about.html" title="About Roberta">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-4" href="/work.html" title="Samples of Roberta's Work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/connect.html" title="Contact Roberta">Connect</a>
+            </li>
+          </ul>
         </div>
       </div>
+    </nav>
 
-      <!-- Recent Work Section -->
-
-      <hr />
-      <div id="recent-work-section" class="recent-work-section">
-        <h2
-          class="section-header text-uppercase text-center recent-work-header mt-5 mb-2">
-          Recent Work
-        </h2>
+    <!-- Hero Section -->
+    <div class="container hero-container text-center">
+      <h1 class="name">Roberta Munive</h1>
+      <h3 class="job-title">Front-End Developer</h3>
+      <div class="recent-work-btn-container mt-5">
+        <a href="/index.html#recent-work-section" class="btn recent-work-btn btn-branding">Recent Work</a>
       </div>
-      <div class="container recent-work-images-container">
-        <div class="row p-5">
-          <div class="col-md">
-            <a
-              href="https://dazzling-cactus-738775.netlify.app/"
-              target="_blank"
-              title="Vanilla JS Weather App Landing Page">
-              <img
-                src="/images/weather-app-vanilla-javascript.png"
-                class="img-fluid rounded p-2 shadow recent-work-image mb-5"
-                alt="weather app"
-            /></a>
-          </div>
-          <div class="col-md">
-            <a
-              href="https://ai-quotemaker.netlify.app/"
-              target="_blank"
-              title="AI Quote Generator App Landing Page">
-              <img
-                src="/images/ai-quote-generator.png"
-                class="img-fluid rounded p-2 shadow recent-work-image mb-5"
-                alt="AI quote generator app"
-            /></a>
-          </div>
-          <div class="col-md">
-            <a
-              href="https://timely-world-clock.netlify.app/"
-              target="_blank"
-              title="World Clock App Landing Page">
-              <img
-                src="/images/world-clock.png"
-                class="img-fluid rounded p-2 shadow recent-work-image"
-                alt="world clock app"
-            /></a>
-          </div>
-        </div>
-      </div>
-      <div class="learn-more-btn-container">
-        <a href="/work.html" class="btn learn-more-btn btn-branding"
-          >Learn More</a
-        >
-      </div>
-
-      <hr />
-
-      <!-- Footer Section -->
-
-      <footer class="container-fluid footer-container p-3 rounded border">
-        <div class="container align-items-center d-flex justify-content-center">
-          <a
-            href="mailto:ramunive.sdet@gmail.com"
-            class="email footer-links"
-            title="Send me an email"
-            ><i class="fa-regular fa-envelope me-5"></i
-          ></a>
-          <a
-            href="https://www.linkedin.com/in/robertamunive/"
-            target="_blank"
-            class="footer-links"
-            title="My LinkedIn Profile"
-            ><i class="fa-brands fa-linkedin-in me-5"></i
-          ></a>
-          <a
-            href="https://github.com/roberta-munive"
-            target="_blank"
-            class="footer-links"
-            title="My GitHub Profile"
-            ><i class="fa-brands fa-github"></i
-          ></a>
-        </div>
-      </footer>
-      <p class="text-center text-muted mt-4 pb-4 mbsmall coded-by-me-statement">
-        This portfolio was coded by Roberta and is on
-        <a
-          href="https://github.com/roberta-munive/portfolio-website-responsive"
-          target="_blank"
-          class="footer-links"
-          >GitHub</a
-        >
-      </p>
     </div>
-  </body>
+
+    <!-- Recent Work Section -->
+
+    <hr />
+    <div id="recent-work-section" class="recent-work-section">
+      <h2 class="section-header text-uppercase text-center recent-work-header mt-5 mb-2">
+        Recent Work
+      </h2>
+    </div>
+    <div class="container recent-work-images-container">
+      <div class="row p-5">
+        <div class="col-md">
+          <a href="https://dazzling-cactus-738775.netlify.app/" target="_blank"
+            title="Vanilla JS Weather App Landing Page">
+            <img src="/images/weather-app-vanilla-javascript.png"
+              class="img-fluid rounded p-2 shadow recent-work-image mb-5" alt="weather app" /></a>
+        </div>
+        <div class="col-md">
+          <a href="https://ai-quotemaker.netlify.app/" target="_blank" title="AI Quote Generator App Landing Page">
+            <img src="/images/ai-quote-generator.png" class="img-fluid rounded p-2 shadow recent-work-image mb-5"
+              alt="AI quote generator app" /></a>
+        </div>
+        <div class="col-md">
+          <a href="https://timely-world-clock.netlify.app/" target="_blank" title="World Clock App Landing Page">
+            <img src="/images/world-clock.png" class="img-fluid rounded p-2 shadow recent-work-image"
+              alt="world clock app" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="learn-more-btn-container">
+      <a href="/work.html" class="btn learn-more-btn btn-branding">Learn More</a>
+    </div>
+
+    <hr />
+
+    <!-- Footer Section -->
+
+    <footer class="container-fluid footer-container p-3 rounded border">
+      <div class="container align-items-center d-flex justify-content-center">
+        <a href="mailto:ramunive.sdet@gmail.com" class="email footer-links" title="Send me an email"><i
+            class="fa-regular fa-envelope me-5"></i></a>
+        <a href="https://www.linkedin.com/in/robertamunive/" target="_blank" class="footer-links"
+          title="My LinkedIn Profile"><i class="fa-brands fa-linkedin-in me-5"></i></a>
+        <a href="https://github.com/roberta-munive" target="_blank" class="footer-links" title="My GitHub Profile"><i
+            class="fa-brands fa-github"></i></a>
+      </div>
+    </footer>
+    <p class="text-center text-muted mt-4 pb-4 mbsmall coded-by-me-statement">
+      This portfolio was coded by <a href="https://github.com/roberta-munive" target="_blank" class="footer-links">
+        Roberta
+      </a> and is on
+      <a href="https://github.com/roberta-munive/portfolio-website-responsive" target="_blank"
+        class="footer-links">GitHub</a>
+    </p>
+  </div>
+</body>
+
 </html>
