@@ -192,6 +192,10 @@ i:hover {
 
 /* About Page - Technology Section */
 
+.technology-icon {
+  aspect-ratio: 1 / 1;
+}
+
 .technology-label {
   font-size: 12px;
 }
@@ -216,6 +220,7 @@ i:hover {
   text-decoration: none;
   transition: all 150ms ease-in-out;
 }
+
 .connect-email:visited {
   color: black;
 }
@@ -254,6 +259,7 @@ i:hover {
   .connect-email {
     font-size: 12px;
   }
+
   .hero-container {
     margin-top: 275px;
   }
