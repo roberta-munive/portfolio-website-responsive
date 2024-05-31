@@ -94,7 +94,6 @@ i:hover {
 
 .coded-by-me-statement {
   font-size: 12px;
-  
 }
 
 .email {
@@ -165,7 +164,6 @@ i:hover {
 .project-image {
   aspect-ratio: 1 / 1;
   transition: all 200ms ease-in-out;
-
 }
 
 .project-image:hover {
